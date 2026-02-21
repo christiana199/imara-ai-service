@@ -1,0 +1,51 @@
+company_id,company_name,sector,nationality,business_registered_in,founder_age,founder_gender,business_age_months,annual_revenue_usd,employees,business_stage,funding_need_usd,has_prototype,innovation_level,targets_underserved,created_date
+COMP001,SmartSolutions 1,Manufacturing,Mexico,Uganda,31,male,38,5000000,1,Scale-up,10000000,False,Medium,False,2026-02-17T20:24:28.297373
+COMP002,AgriInnovations 2,Clean Energy,Kenya,Brazil,45,female,21,10000,7,Early Growth,100000,True,Medium,False,2026-02-17T20:24:28.297373
+COMP003,GreenInnovations 3,Healthcare,Brazil,United Kingdom,44,male,41,5000000,1,Scale-up,10000000,False,Medium,True,2026-02-17T20:24:28.297373
+COMP004,AgriLabs 4,Tourism,Australia,Uganda,26,female,24,1000000,4,Growth,2000000,False,High,True,2026-02-17T20:24:28.298372
+COMP005,AgriInnovations 5,Education,Kenya,Indonesia,30,male,16,200000,6,Early Growth,100000,False,High,False,2026-02-17T20:24:28.298372
+COMP006,GreenHub 6,Manufacturing,Uganda,Mexico,42,male,35,200000,7,Early Growth,100000,True,Medium,True,2026-02-17T20:24:28.298372
+COMP007,TechHub 7,E-commerce,Canada,Germany,25,male,14,10000,1,Early Growth,500000,True,High,False,2026-02-17T20:24:28.299371
+COMP008,AgriSolutions 8,Food Processing,Canada,Brazil,31,female,58,100000,4,Growth,500000,True,Medium,True,2026-02-17T20:24:28.299371
+COMP009,HealthSolutions 9,Technology,South Africa,Uganda,39,female,34,1000000,11,Growth,1000000,True,Medium,True,2026-02-17T20:24:28.299371
+COMP010,AgriLabs 10,Healthcare,Egypt,United Kingdom,41,male,14,100000,5,Early Growth,250000,True,Medium,False,2026-02-17T20:24:28.299371
+COMP011,SmartInnovations 11,E-commerce,India,South Africa,46,female,28,1000000,7,Growth,1000000,False,High,False,2026-02-17T20:24:28.300374
+COMP012,HealthInnovations 12,Food Processing,United Kingdom,Brazil,49,male,43,5000000,1,Scale-up,2000000,False,Low,True,2026-02-17T20:24:28.300374
+COMP013,HealthHub 13,Financial Services,Nigeria,South Africa,34,male,2,15000,22,Startup,50000,True,Medium,False,2026-02-17T20:24:28.300374
+COMP014,GreenInnovations 14,E-commerce,Kenya,South Africa,41,male,48,500000,48,Growth,2000000,False,Medium,True,2026-02-17T20:24:28.300374
+COMP015,TechHub 15,Healthcare,Indonesia,Kenya,45,male,36,5000000,33,Scale-up,10000000,False,High,True,2026-02-17T20:24:28.300374
+COMP016,SmartInnovations 16,Agriculture,USA,USA,35,female,37,5000000,12,Scale-up,2000000,True,Low,True,2026-02-17T20:24:28.301881
+COMP017,HealthInnovations 17,Healthcare,Australia,South Africa,43,male,19,200000,1,Early Growth,100000,False,Medium,False,2026-02-17T20:24:28.301881
+COMP018,HealthInnovations 18,Tourism,Canada,Kenya,47,male,0,0,9,Idea,50000,False,High,False,2026-02-17T20:24:28.301881
+COMP019,AgriHub 19,Financial Services,Uganda,India,47,male,59,100000,3,Growth,2000000,False,Medium,False,2026-02-17T20:24:28.301881
+COMP020,TechInnovations 20,Education,USA,Germany,44,male,51,1000000,3,Growth,500000,False,Low,True,2026-02-17T20:24:28.302888
+COMP021,HealthInnovations 21,Tourism,Ghana,Nigeria,28,male,17,50000,3,Early Growth,500000,False,Medium,False,2026-02-17T20:24:28.302888
+COMP022,SmartSolutions 22,Clean Energy,Germany,India,51,female,58,1000000,5,Growth,2000000,True,Low,False,2026-02-17T20:24:28.302888
+COMP023,HealthInnovations 23,Technology,Nigeria,Brazil,52,male,18,200000,2,Early Growth,250000,True,Low,False,2026-02-17T20:24:28.302888
+COMP024,SmartSolutions 24,Healthcare,Brazil,Nigeria,44,male,48,500000,3,Growth,2000000,True,Medium,True,2026-02-17T20:24:28.303889
+COMP025,AgriSolutions 25,Manufacturing,Indonesia,Germany,42,female,41,1000000,36,Growth,1000000,True,Medium,True,2026-02-17T20:24:28.303889
+COMP026,TechSolutions 26,Clean Energy,United Kingdom,Mexico,34,female,39,100000,13,Growth,500000,False,Low,True,2026-02-17T20:24:28.303889
+COMP027,GreenHub 27,Manufacturing,Indonesia,Indonesia,36,female,35,50000,1,Early Growth,250000,True,Medium,True,2026-02-17T20:24:28.304887
+COMP028,SmartLabs 28,Food Processing,Australia,USA,41,male,24,200000,13,Early Growth,250000,True,Medium,False,2026-02-17T20:24:28.304887
+COMP029,GreenHub 29,E-commerce,Ghana,USA,37,male,59,5000000,4,Scale-up,10000000,False,High,False,2026-02-17T20:24:28.304887
+COMP030,HealthHub 30,Manufacturing,Egypt,South Africa,52,female,59,500000,2,Growth,1000000,False,High,False,2026-02-17T20:24:28.304887
+COMP031,AgriLabs 31,Technology,Egypt,Kenya,54,male,52,100000,1,Growth,500000,True,High,False,2026-02-17T20:24:28.305995
+COMP032,SmartSolutions 32,Healthcare,Brazil,Australia,40,male,4,5000,1,Startup,25000,True,Low,True,2026-02-17T20:24:28.305995
+COMP033,GreenHub 33,Food Processing,Australia,Uganda,31,male,45,500000,4,Growth,500000,True,Medium,False,2026-02-17T20:24:28.305995
+COMP034,AgriLabs 34,Healthcare,Australia,Nigeria,48,female,33,1000000,1,Growth,2000000,False,High,False,2026-02-17T20:24:28.305995
+COMP035,GreenLabs 35,Healthcare,Brazil,Nigeria,25,female,19,200000,13,Early Growth,500000,False,Medium,True,2026-02-17T20:24:28.307013
+COMP036,GreenSolutions 36,Agriculture,Mexico,South Africa,42,female,28,50000,1,Early Growth,100000,False,Low,False,2026-02-17T20:24:28.307013
+COMP037,GreenLabs 37,Financial Services,Kenya,Mexico,35,female,40,1000000,10,Growth,500000,False,Medium,False,2026-02-17T20:24:28.307013
+COMP038,HealthHub 38,Healthcare,Ghana,Kenya,41,female,23,200000,3,Early Growth,250000,True,Medium,False,2026-02-17T20:24:28.307013
+COMP039,HealthHub 39,Technology,Nigeria,Indonesia,44,female,22,10000,3,Early Growth,500000,True,Low,False,2026-02-17T20:24:28.307013
+COMP040,TechSolutions 40,Education,South Africa,Australia,39,male,18,200000,1,Early Growth,100000,True,Medium,False,2026-02-17T20:24:28.307994
+COMP041,SmartHub 41,Food Processing,Australia,United Kingdom,38,male,15,10000,4,Early Growth,500000,True,High,False,2026-02-17T20:24:28.307994
+COMP042,AgriInnovations 42,Technology,Mexico,USA,31,male,8,5000,2,Startup,25000,False,High,True,2026-02-17T20:24:28.307994
+COMP043,HealthInnovations 43,Technology,USA,Ghana,41,female,36,500000,34,Growth,1000000,False,Medium,True,2026-02-17T20:24:28.307994
+COMP044,AgriLabs 44,Healthcare,United Kingdom,Indonesia,27,male,38,1000000,4,Growth,1000000,True,Low,True,2026-02-17T20:24:28.308993
+COMP045,TechSolutions 45,Tourism,Egypt,Brazil,41,male,40,1000000,6,Growth,500000,False,Low,False,2026-02-17T20:24:28.308993
+COMP046,SmartSolutions 46,Financial Services,Ghana,South Africa,43,female,46,100000,5,Growth,500000,True,Medium,False,2026-02-17T20:24:28.308993
+COMP047,HealthInnovations 47,E-commerce,Canada,India,36,female,53,500000,1,Growth,1000000,True,Medium,True,2026-02-17T20:24:28.308993
+COMP048,AgriInnovations 48,Food Processing,Brazil,Kenya,52,male,27,1000000,29,Growth,2000000,False,Medium,True,2026-02-17T20:24:28.309994
+COMP049,GreenInnovations 49,Healthcare,Mexico,USA,42,male,19,10000,6,Early Growth,100000,True,High,False,2026-02-17T20:24:28.309994
+COMP050,TechLabs 50,Technology,Kenya,Egypt,41,male,44,100000,11,Growth,500000,False,High,False,2026-02-17T20:24:28.309994
