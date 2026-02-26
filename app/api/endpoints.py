@@ -2,12 +2,13 @@
 ImaraFund API Endpoints
 RESTful API for grant matching with comprehensive filtering
 """
-
+from app.schemas import GrantResponse, GrantCreate
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import List, Optional
 from app.database import get_db
 from app.models import Grant, Company
+from app.schemas import GrantCreate
 from app.schemas import (
     GrantResponse, CompanyResponse, CompanyCreate, MatchResponse,
     ScoreBreakdown, MatchResult
@@ -168,3 +169,30 @@ def match_company_with_grants(
         ai_recommendation=ai_recommendation,
         total_matches_found=len(matches)
     )
+@router.get("/grants/{grant_id}", response_model=GrantResponse)
+def get_grant(grant_id: int, db: Session = Depends(get_db)):
+    grant = db.query(Grant).filter(Grant.id == grant_id).first()
+    if not grant:
+        raise HTTPException(status_code=404, detail=f"Grant {grant_id} not found")
+    return grant
+
+
+# 👇 PASTE IT RIGHT HERE 👇
+@router.post("/grants", response_model=GrantResponse, status_code=201)
+def create_grant(grant: GrantResponse, db: Session = Depends(get_db)):
+    """
+    Create a new grant manually (for seeding production)
+    """
+    db_grant = Grant(**grant.dict())
+    db.add(db_grant)
+    db.commit()
+    db.refresh(db_grant)
+    return db_grant
+
+@router.post("/grants", response_model=GrantResponse, status_code=201)
+def create_grant(grant: GrantCreate, db: Session = Depends(get_db)):
+    db_grant = Grant(**grant.dict())
+    db.add(db_grant)
+    db.commit()
+    db.refresh(db_grant)
+    return db_grant

@@ -6,6 +6,34 @@ Request/Response models for API validation
 from pydantic import BaseModel, Field
 from typing import List, Optional
 from datetime import datetime
+from pydantic import BaseModel
+from typing import Optional
+
+
+
+class GrantCreate(BaseModel):
+    program_id: str
+    program_name: str
+    institution_name: str
+    country: str
+    region: Optional[str] = None
+    currency_code: Optional[str] = None
+    estimated_value_amount: Optional[float] = None
+    repayment_required: Optional[bool] = None
+    program_type: Optional[str] = None
+    target_sectors: Optional[str] = None
+    duration_months: Optional[int] = None
+    geographic_scope: Optional[str] = None
+    eligibility_criteria: Optional[str] = None
+    application_process: Optional[str] = None
+    website_url: Optional[str] = None
+    last_verified_date: Optional[str] = None
+    notes: Optional[str] = None
+    target_beneficiaries: Optional[str] = None
+    women_focused: Optional[bool] = False
+    youth_focused: Optional[bool] = False
+    agriculture_focused: Optional[bool] = False
+    verified: Optional[bool] = True
 
 
 # Grant Schemas
